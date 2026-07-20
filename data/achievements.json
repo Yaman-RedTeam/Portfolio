@@ -1,0 +1,8 @@
+[
+  { "label": "Certifications", "value": 50, "suffix": "+" },
+  { "label": "Videos", "value": 120, "suffix": "+" },
+  { "label": "Projects", "value": 25, "suffix": "+" },
+  { "label": "Labs", "value": 100, "suffix": "+" },
+  { "label": "Subscribers", "value": 10, "suffix": "K+" },
+  { "label": "Experience", "value": 2, "suffix": "Y+" }
+]

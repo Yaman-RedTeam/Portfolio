@@ -1,0 +1,7 @@
+[
+  { "name": "YouTube", "icon": "Youtube", "url": "https://youtube.com/@yamanredteam" },
+  { "name": "LinkedIn", "icon": "Linkedin", "url": "https://www.linkedin.com/in/yaman-redteam/" },
+  { "name": "Instagram", "icon": "Instagram", "url": "https://www.instagram.com/yaman.redteam" },
+  { "name": "GitHub", "icon": "Github", "url": "https://github.com/Yaman-RedTeam" },
+  { "name": "TryHackMe", "icon": "TryHackMe", "url": "https://tryhackme.com/p/YamanRedTeam" }
+]

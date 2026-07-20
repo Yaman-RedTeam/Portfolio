@@ -1,0 +1,38 @@
+[
+  {
+    "id": "web-rampage-fileless",
+    "title": "RAMPAGE: Creating and Operating Fileless Payloads",
+    "issuer": "CyberWarFare Labs",
+    "year": "2026",
+    "role": "Attendee",
+    "image": "/images/webinars/rampage-fileless-payloads.jpeg",
+    "url": "https://www.credential.net/"
+  },
+  {
+    "id": "web-ml-model",
+    "title": "Building Your First Machine Learning Model",
+    "issuer": "CyberWarFare Labs",
+    "year": "2026",
+    "role": "Attendee",
+    "image": "/images/webinars/ml-model-building.jpeg",
+    "url": "https://www.credential.net/"
+  },
+  {
+    "id": "web-agentic-adversary",
+    "title": "The Rise of the Agentic Adversary",
+    "issuer": "CyberWarFare Labs",
+    "year": "2026",
+    "role": "Attendee",
+    "image": "/images/webinars/agentic-adversary.jpeg",
+    "url": "https://www.credential.net/"
+  },
+  {
+    "id": "web-n8n-ai-recon",
+    "title": "Automating Passive Web Application Recon with n8n & AI",
+    "issuer": "CyberWarFare Labs",
+    "year": "2026",
+    "role": "Attendee",
+    "image": "/images/webinars/n8n-ai-recon.png",
+    "url": "https://www.credential.net/"
+  }
+]

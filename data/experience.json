@@ -1,0 +1,42 @@
+[
+  {
+    "id": "exp-redteam",
+    "role": "Red Team Specialist",
+    "company": "Red Team Practice & Cyber Warfare Labs",
+    "period": "2025 — Present",
+    "location": "Remote",
+    "type": "Freelance",
+    "points": [
+      "Practiced red team methodologies in authorized cyber warfare labs and training environments.",
+      "Solved Capture The Flag (CTF) challenges and completed hands-on red team lab exercises focused on reconnaissance, exploitation, privilege escalation, persistence, and post-exploitation.",
+      "Earned practical offensive security certifications and continuously improved red teaming skills through hands-on practice, research, and lab-based simulations.",
+      "Gained experience using tools such as Metasploit, Nmap, Burp Suite, BloodHound, CrackMapExec, Hydra, Impacket, and other offensive security tools in controlled lab environments."
+    ]
+  },
+  {
+    "id": "exp-pentester",
+    "role": "Penetration Tester",
+    "company": "eJPT Training & Vulnerable Lab Environment",
+    "period": "2025 — 2026",
+    "location": "Remote",
+    "points": [
+      "Performed authorized penetration testing exercises in vulnerable lab environments as part of eJPT training.",
+      "Practiced network reconnaissance, enumeration, exploitation, privilege escalation, and post-exploitation on intentionally vulnerable machines.",
+      "Solved Capture The Flag (CTF) challenges and documented findings to strengthen practical offensive security skills."
+    ]
+  },
+  {
+    "id": "exp-creator",
+    "role": "Offensive Security Content Creator",
+    "company": ["YouTube — Yaman RedTeam", "Instagram — 40K+ Followers"],
+    "period": "2025 — Present",
+    "location": "Online",
+    "type": "Content Creator",
+    "points": [
+      "Create educational content on ethical hacking, penetration testing, red teaming, and offensive security concepts.",
+      "Publish practical walkthroughs, lab demonstrations, CTF write-ups, tool tutorials, and cybersecurity learning content on YouTube.",
+      "Build and share cybersecurity educational content with a growing community across YouTube and Instagram (40K+ followers).",
+      "Help beginners and aspiring penetration testers learn through hands-on lab-based demonstrations and structured learning resources."
+    ]
+  }
+]

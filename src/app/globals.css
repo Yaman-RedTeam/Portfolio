@@ -1,0 +1,327 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #0a0a0a;
+  --color-bg-alt: #0d0f12;
+  --color-red: #ff003c;
+  --color-cyan: #00e5ff;
+  --color-white: #ffffff;
+  --color-green: #00ff9c;
+}
+
+@theme inline {
+  --color-background: var(--color-bg);
+  --color-foreground: var(--color-white);
+  --color-neon-red: var(--color-red);
+  --color-neon-cyan: var(--color-cyan);
+  --color-neon-green: var(--color-green);
+  --font-display: var(--font-orbitron);
+  --font-body: var(--font-inter);
+  --font-mono-hack: var(--font-jetbrains);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 5.5rem;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-white);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-red);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--color-red), var(--color-cyan));
+  border-radius: 4px;
+}
+
+/* ---------- Custom cyberpunk cursor ---------- */
+@media (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
+}
+
+.cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 9999px;
+  background: var(--color-red);
+  box-shadow: 0 0 8px rgba(255, 0, 60, 0.9), 0 0 16px rgba(255, 0, 60, 0.6);
+  pointer-events: none;
+  z-index: 99999;
+  opacity: 0;
+  transition: opacity 0.2s ease, width 0.18s ease, height 0.18s ease;
+  will-change: transform;
+}
+.cursor-dot--active {
+  width: 11px;
+  height: 11px;
+}
+
+.cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 9999px;
+  border: 1.5px solid rgba(255, 0, 60, 0.8);
+  box-shadow: 0 0 10px rgba(255, 0, 60, 0.45), inset 0 0 8px rgba(255, 0, 60, 0.25);
+  pointer-events: none;
+  z-index: 99999;
+  opacity: 0;
+  transition: opacity 0.25s ease, width 0.22s ease, height 0.22s ease,
+    border-color 0.22s ease, background-color 0.22s ease;
+  will-change: transform;
+}
+.cursor-ring--active {
+  width: 54px;
+  height: 54px;
+  border-color: var(--color-cyan);
+  background: rgba(0, 229, 255, 0.08);
+  box-shadow: 0 0 16px rgba(0, 229, 255, 0.5), inset 0 0 10px rgba(0, 229, 255, 0.25);
+}
+.cursor-ring--down {
+  width: 22px;
+  height: 22px;
+}
+
+.cursor-flare {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 9px;
+  height: 9px;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(255, 60, 90, 0.95) 0%, rgba(255, 0, 60, 0.5) 45%, transparent 72%);
+  box-shadow: 0 0 8px rgba(255, 0, 60, 0.7);
+  pointer-events: none;
+  z-index: 99998;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+/* ---------- Utility layer ---------- */
+.font-display {
+  font-family: var(--font-orbitron), sans-serif;
+}
+.font-hack {
+  font-family: var(--font-jetbrains), monospace;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-strong {
+  background: rgba(10, 10, 10, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.neon-text-red {
+  color: var(--color-red);
+  text-shadow: 0 0 6px rgba(255, 0, 60, 0.8), 0 0 24px rgba(255, 0, 60, 0.4);
+}
+.neon-text-cyan {
+  color: var(--color-cyan);
+  text-shadow: 0 0 6px rgba(0, 229, 255, 0.8), 0 0 24px rgba(0, 229, 255, 0.4);
+}
+
+.neon-border-red {
+  border: 1px solid var(--color-red);
+  box-shadow: 0 0 8px rgba(255, 0, 60, 0.5), inset 0 0 8px rgba(255, 0, 60, 0.15);
+}
+.neon-border-cyan {
+  border: 1px solid var(--color-cyan);
+  box-shadow: 0 0 8px rgba(0, 229, 255, 0.5), inset 0 0 8px rgba(0, 229, 255, 0.15);
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(0, 229, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 229, 255, 0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.grid-bg-red {
+  background-image:
+    linear-gradient(rgba(255, 0, 60, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 0, 60, 0.055) 1px, transparent 1px);
+  background-size: 46px 46px;
+  -webkit-mask-image: radial-gradient(ellipse 80% 70% at 50% 45%, #000 55%, transparent 100%);
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 45%, #000 55%, transparent 100%);
+}
+
+/* Cinematic hero glows */
+.hero-glow-red {
+  background: radial-gradient(circle, rgba(255, 0, 60, 0.28), transparent 62%);
+}
+.hero-vignette {
+  background: radial-gradient(ellipse 90% 80% at 60% 45%, transparent 40%, rgba(0, 0, 0, 0.85) 100%);
+}
+
+@keyframes glow-pulse {
+  0%, 100% { opacity: 0.55; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.06); }
+}
+.animate-glow-pulse {
+  animation: glow-pulse 4s ease-in-out infinite;
+}
+
+@keyframes float-particle {
+  0%, 100% { transform: translateY(0) translateX(0); opacity: 0.7; }
+  50% { transform: translateY(-18px) translateX(6px); opacity: 1; }
+}
+
+.cyber-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.75rem;
+  transition: all 0.35s ease;
+}
+.cyber-card:hover {
+  border-color: rgba(0, 229, 255, 0.6);
+  box-shadow: 0 0 24px rgba(0, 229, 255, 0.25), 0 0 4px rgba(0, 229, 255, 0.4);
+  transform: translateY(-4px);
+}
+
+/* ---------- Framed certificate holder ---------- */
+.cert-frame {
+  background: linear-gradient(145deg, #15181d, #0a0c0f);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.06) inset,
+    0 12px 30px rgba(0, 0, 0, 0.55),
+    0 0 22px rgba(0, 229, 255, 0.08);
+  position: relative;
+}
+.cert-frame::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(145deg, rgba(255, 0, 60, 0.6), rgba(0, 229, 255, 0.6));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.group:hover .cert-frame::before {
+  opacity: 1;
+}
+
+.glow-btn {
+  position: relative;
+  overflow: hidden;
+}
+.glow-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(255, 0, 60, 0.35), transparent 60%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.glow-btn:hover::after {
+  opacity: 1;
+}
+
+/* ---------- Marquee ---------- */
+@keyframes marquee-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee-left 40s linear infinite;
+}
+.animate-marquee-paused {
+  animation-play-state: paused;
+}
+
+/* ---------- Matrix rain ---------- */
+@keyframes matrix-fall {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(100%); }
+}
+
+/* ---------- Radar sweep ---------- */
+@keyframes radar-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.radar-sweep {
+  animation: radar-spin 3s linear infinite;
+}
+
+/* ---------- Scanline ---------- */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+/* ---------- Blink cursor ---------- */
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+.cursor-blink {
+  animation: blink 1s step-start infinite;
+}
+
+/* ---------- Float ---------- */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-14px); }
+}
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+.animate-pulse-glow {
+  animation: pulse-glow 2.2s ease-in-out infinite;
+}
+
+/* ---------- Ticker for terminal logs ---------- */
+@keyframes scroll-up {
+  from { transform: translateY(0); }
+  to { transform: translateY(-50%); }
+}
+.animate-scroll-up {
+  animation: scroll-up 12s linear infinite;
+}

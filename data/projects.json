@@ -1,0 +1,20 @@
+[
+  {
+    "id": "vapt-hcltech-lab",
+    "title": "VAPT — Windows Enterprise Internship Lab",
+    "description": "Hands-on Vulnerability Assessment & Penetration Testing engagement on a simulated enterprise environment (Windows Server 2008 R2, Windows Server 2019, Windows 10, DVWA) during the HCLTech–Amity Cybersecurity Internship. Covered recon, SMB exploitation to SYSTEM-level Meterpreter access, post-exploitation credential harvesting, and web app testing for SQLi/XSS.",
+    "image": "/images/projects/vapt-exploit-thumbnail.jpeg",
+    "tech": ["Nmap", "Nessus", "Metasploit", "Burp Suite", "OWASP ZAP", "DVWA"],
+    "github": "https://github.com/Yaman-RedTeam/Vapt_Project_HCLTech",
+    "report": "/projects/vapt-hcltech-full-report.html"
+  },
+  {
+    "id": "phishing-zphisher",
+    "title": "Phishing Attack Simulation & Defense Analysis",
+    "description": "A controlled phishing simulation project analyzing how credential-harvesting pages are deployed and defended against, built for an HCLTech–Amity Cybersecurity submission. Covers Zphisher setup, template-based fake login pages, and public tunneling — with defensive takeaways for recognizing and mitigating phishing attacks.",
+    "image": "/images/projects/phishing-cover-v2.png",
+    "tech": ["Zphisher", "Kali Linux", "Termux", "Cloudflare Tunnel"],
+    "github": "",
+    "report": "/projects/phishing-zphisher-report.pdf"
+  }
+]

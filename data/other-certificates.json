@@ -1,0 +1,152 @@
+[
+  {
+    "id": "adv-excel",
+    "name": "EXCEL",
+    "fullName": "Certificate in Advanced Excel",
+    "issuer": "Amity University Online",
+    "year": "2024",
+    "credentialId": "Xp1Rrk5ybU",
+    "image": "/images/other-certs/advance-excel.png",
+    "pdf": "/certs/other/advance-excel.pdf"
+  },
+  {
+    "id": "bug-bounty",
+    "name": "BUG BOUNTY",
+    "fullName": "Bug Bounty – Ethical Hacking (Will Make U Pro & Rich)",
+    "issuer": "Udemy",
+    "year": "2024",
+    "credentialId": "UC-d5b0a1df-d090-47e3-8eca-1accfca1b8dc",
+    "image": "/images/other-certs/bug-bounty.png",
+    "pdf": "/certs/other/bug-bounty.pdf"
+  },
+  {
+    "id": "ccsc",
+    "name": "CCSC",
+    "fullName": "Cybersecurity Career Starter Certification",
+    "issuer": "Hack & Fix Academy",
+    "year": "2026",
+    "credentialId": "4604-3101-3400-2888",
+    "image": "/images/other-certs/ccsc.png",
+    "pdf": "/certs/other/ccsc.pdf"
+  },
+  {
+    "id": "mern",
+    "name": "MERN",
+    "fullName": "MERN Stack Development — Project Completion",
+    "issuer": "Digipodium",
+    "year": "2024",
+    "credentialId": "N/A",
+    "image": "/images/other-certs/mern.png",
+    "pdf": "/certs/other/mern.pdf"
+  },
+  {
+    "id": "branding-grooming",
+    "name": "BRANDING",
+    "fullName": "Elevate Your Presence: Personal Branding & Grooming Workshop",
+    "issuer": "Amity Finishing School",
+    "year": "2025",
+    "credentialId": "J9CQkyiIwW",
+    "image": "/images/other-certs/personal-branding-grooming.png",
+    "pdf": "/certs/other/personal-branding-grooming.pdf"
+  },
+  {
+    "id": "power-bi",
+    "name": "POWER BI",
+    "fullName": "Data Visualization With Power BI",
+    "issuer": "Great Learning",
+    "year": "2025",
+    "credentialId": "POYAHFAB",
+    "image": "/images/other-certs/data-viz-powerbi.png",
+    "pdf": "/certs/other/data-viz-powerbi.pdf"
+  },
+  {
+    "id": "ec-council-ehe",
+    "name": "EHE",
+    "fullName": "Ethical Hacking Essentials (EHE)",
+    "issuer": "EC-Council · Coursera",
+    "year": "2025",
+    "credentialId": "VL5E25NSXEVR",
+    "image": "/images/other-certs/ec-council-ehe.png",
+    "pdf": "/certs/other/ec-council-ehe.pdf"
+  },
+  {
+    "id": "google-cybersecurity",
+    "name": "GOOGLE CS",
+    "fullName": "Foundations of Cybersecurity",
+    "issuer": "Google · Coursera",
+    "year": "2025",
+    "credentialId": "WM71ZMDTYB2S",
+    "image": "/images/other-certs/google-cybersecurity.png",
+    "pdf": "/certs/other/google-cybersecurity.pdf"
+  },
+  {
+    "id": "ibm-cs-project",
+    "name": "IBM CAPSTONE",
+    "fullName": "Cybersecurity Case Studies and Capstone Project",
+    "issuer": "IBM · Coursera",
+    "year": "2025",
+    "credentialId": "7FP1VJ2EXRZS",
+    "image": "/images/other-certs/ibm-cs-project.png",
+    "pdf": "/certs/other/ibm-cs-project.pdf"
+  },
+  {
+    "id": "ibm-data-breach",
+    "name": "DATA BREACH",
+    "fullName": "Cybersecurity Breach Case Studies",
+    "issuer": "IBM · Coursera",
+    "year": "2025",
+    "credentialId": "6cf4f9fa-ac12-4e7e-9cc0-5a8ae954942b",
+    "image": "/images/other-certs/ibm-data-breach.png",
+    "pdf": "/certs/other/ibm-data-breach.pdf"
+  },
+  {
+    "id": "intro-to-cybersecurity",
+    "name": "INTRO TO CS",
+    "fullName": "Introduction to Cybersecurity",
+    "issuer": "Cisco Networking Academy",
+    "year": "2025",
+    "credentialId": "N/A",
+    "image": "/images/other-certs/intro-to-cybersecurity.png",
+    "pdf": "/certs/other/intro-to-cybersecurity.pdf"
+  },
+  {
+    "id": "thm-cybersecurity-101",
+    "name": "CYBER 101",
+    "fullName": "Cyber Security 101",
+    "issuer": "TryHackMe",
+    "year": "2026",
+    "credentialId": "THM-ODWNSQTXHU",
+    "image": "/images/other-certs/thm-cybersecurity-101.png",
+    "pdf": "/certs/other/thm-cybersecurity-101.pdf"
+  },
+  {
+    "id": "thm-presecurity",
+    "name": "PRE SECURITY",
+    "fullName": "Pre Security",
+    "issuer": "TryHackMe",
+    "year": "2026",
+    "credentialId": "THM-DSMSXEQXW6",
+    "image": "/images/other-certs/thm-presecurity.png",
+    "pdf": "/certs/other/thm-presecurity.pdf"
+  },
+  {
+    "id": "kali-linux-basics",
+    "name": "KALI LINUX",
+    "fullName": "Introduction to Kali Linux Basics",
+    "issuer": "Simplilearn SkillUp",
+    "year": "2025",
+    "credentialId": "8117685",
+    "image": "/images/other-certs/kali-linux-basics.png",
+    "pdf": "/certs/other/kali-linux-basics.pdf"
+  },
+  {
+    "id": "cofps-fraud-prevention",
+    "name": "COFPS",
+    "fullName": "Certified Online Fraud Prevention Specialist",
+    "issuer": "Hack & Fix Academy",
+    "year": "2026",
+    "credentialId": "3615-4595-2829-3503",
+    "image": "/images/other-certs/cofps-fraud-prevention.png",
+    "pdf": "/certs/other/cofps-fraud-prevention.pdf"
+  }
+]

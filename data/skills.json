@@ -1,0 +1,18 @@
+[
+  { "name": "Web Pentesting", "icon": "Globe", "level": 90 },
+  { "name": "Web Application Security", "icon": "AppWindow", "level": 88 },
+  { "name": "Burp Suite", "icon": "Bug", "level": 90 },
+  { "name": "API Security", "icon": "Plug", "level": 85 },
+  { "name": "OWASP Top 10", "icon": "ShieldCheck", "level": 86 },
+  { "name": "Active Directory", "icon": "Server", "level": 78 },
+  { "name": "Nmap", "icon": "Radar", "level": 84 },
+  { "name": "Nessus", "icon": "ShieldAlert", "level": 78 },
+  { "name": "Metasploit", "icon": "Skull", "level": 76 },
+  { "name": "Linux", "icon": "Terminal", "level": 88 },
+  { "name": "Networking", "icon": "Network", "level": 82 },
+  { "name": "Recon & OSINT", "icon": "Eye", "level": 80 },
+  { "name": "Cloud Security", "icon": "Cloud", "level": 65 },
+  { "name": "AI-Assisted Red Teaming", "icon": "Bot", "level": 60 },
+  { "name": "Claude Code", "icon": "Sparkles", "level": 75 },
+  { "name": "MCP", "icon": "Workflow", "level": 65 }
+]

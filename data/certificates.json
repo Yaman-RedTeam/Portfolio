@@ -1,0 +1,52 @@
+[
+  {
+    "id": "crta",
+    "name": "CRTA",
+    "fullName": "Certified Red Team Analyst",
+    "issuer": "CyberWarFare Labs",
+    "year": "2026",
+    "credentialId": "CRTA-6a5be3138aed14e94c892962",
+    "image": "/images/certs/cwl-redteam.png",
+    "pdf": "/certs/cwl-redteam.pdf"
+  },
+  {
+    "id": "web-rta",
+    "name": "WEB-RTA",
+    "fullName": "Certified Web Red Team Analyst",
+    "issuer": "CyberWarFare Labs",
+    "year": "2026",
+    "credentialId": "WEB-RTA-6a4bdfec0a225aa3dd00075a",
+    "image": "/images/certs/web-rta.png",
+    "pdf": "/certs/web-rta.pdf"
+  },
+  {
+    "id": "api-rta",
+    "name": "API-RTA",
+    "fullName": "Certified API Red Team Analyst",
+    "issuer": "CyberWarFare Labs",
+    "year": "2026",
+    "credentialId": "API-RTA-6a3fc83d51cc04facb4fbaa7",
+    "image": "/images/certs/api-rta.png",
+    "pdf": "/certs/api-rta.pdf"
+  },
+  {
+    "id": "coao",
+    "name": "COAO",
+    "fullName": "Certified Offensive AI Operator",
+    "issuer": "CyberWarFare Labs",
+    "year": "2026",
+    "credentialId": "OCO-AI-6a4c09090a225aa3dd001b57",
+    "image": "/images/certs/oco-ai.png",
+    "pdf": "/certs/oco-ai.pdf"
+  },
+  {
+    "id": "mcbta",
+    "name": "MCBTA",
+    "fullName": "Certified Multi-Cloud Blue Team Analyst",
+    "issuer": "CyberWarFare Labs",
+    "year": "2026",
+    "credentialId": "MCBTA-69d4da20c705942f0b4112e4",
+    "image": "/images/certs/multicloud-blueteam.png",
+    "pdf": "/certs/multicloud-blueteam.pdf"
+  }
+]

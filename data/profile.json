@@ -1,0 +1,70 @@
+{
+  "name": "Yaman",
+  "brand": "Yaman RedTeam",
+  "tagline": "Offensive Security | Ethical Hacker | Penetration Tester | Content Creator",
+  "titles": [
+    "Web Pentester",
+    "Bug Hunter",
+    "Red Team Enthusiast",
+    "Cyber Security Researcher"
+  ],
+  "bio": "I specialize in AI-powered Offensive Security, Red Team Operations, Web & API Penetration Testing, Active Directory Security, and Enterprise Attack Simulation. My focus is building AI-driven offensive workflows, automating reconnaissance, and performing realistic security assessments to identify and validate vulnerabilities in modern enterprise environments.",
+  "location": "India",
+  "email": "contact@yamanredteam.com",
+  "resumeUrl": "/resume.pdf",
+  "youtubeChannelId": "UCxrDjaq0uj8uM2Iw-bztGOQ",
+  "stats": [
+    { "label": "Years Experience", "value": 2, "suffix": "+" },
+    { "label": "Certifications", "value": 30, "suffix": "+" },
+    { "label": "Lab Hours", "value": 100, "suffix": "+" },
+    { "label": "YouTube Channels", "value": 2, "suffix": "" }
+  ],
+  "timeline": [
+    {
+      "year": "2021",
+      "title": "Started Cybersecurity Journey",
+      "description": "Began learning Networking, Linux fundamentals, Windows, and Ethical Hacking."
+    },
+    {
+      "year": "2025",
+      "title": "CTF & Practical Labs",
+      "description": "Focused on TryHackMe, eJPT practical labs, Active Directory, Web Application Security, and hands-on penetration testing."
+    },
+    {
+      "year": "2025",
+      "title": "Content Creator",
+      "description": "Started creating cybersecurity content on YouTube and Instagram, sharing practical labs, walkthroughs, and offensive security learning."
+    },
+    {
+      "year": "2026",
+      "title": "Cyber Warfare Academy & Enterprise Labs",
+      "description": "Advanced through Cyber Warfare Academy, AI-assisted offensive security training, enterprise red team labs, and eJPT-style CTF challenges."
+    }
+  ],
+  "system": {
+    "os": "Kali Linux",
+    "ip": "192.168.1.101",
+    "status": "SECURE",
+    "location": "India"
+  },
+  "dashboard": {
+    "threatLevel": "LOW",
+    "packets": "2.4K",
+    "latency": "52ms",
+    "cpu": 23,
+    "uptime": "24h 13m",
+    "logs": [
+      "Initializing Red Team System...",
+      "Scanning Network...",
+      "Port 22, 80, 443, 8080",
+      "Status: Secure",
+      "Firewall: Active",
+      "IDS: Monitoring",
+      "Threats: 1 Low Risk",
+      "Packets: 2.4K",
+      "Latency: 52ms",
+      "Uptime: 24h 13m",
+      "Access: Granted"
+    ]
+  }
+}
