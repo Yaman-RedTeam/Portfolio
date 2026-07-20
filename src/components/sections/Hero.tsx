@@ -103,7 +103,7 @@ export default function Hero() {
               <PlayCircle size={17} /> Watch YouTube
             </a>
             <a
-              href="#contact"
+              href={`mailto:${profile.email}`}
               className="glow-btn flex items-center gap-2 px-6 py-3.5 rounded-lg border border-white/20 text-white/90 font-hack text-sm uppercase tracking-wider hover:border-neon-red hover:text-neon-red transition-colors"
             >
               <Mail size={17} /> Contact Me

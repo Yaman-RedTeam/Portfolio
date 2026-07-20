@@ -8,7 +8,6 @@ import OtherCertificates from "@/components/sections/OtherCertificates";
 import Experience from "@/components/sections/Experience";
 import Webinars from "@/components/sections/Webinars";
 import CyberDashboard from "@/components/sections/CyberDashboard";
-import Contact from "@/components/sections/Contact";
 
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
       <Experience />
       <OtherCertificates />
       <CyberDashboard />
-      <Contact />
     </>
   );
 }

@@ -40,7 +40,9 @@ export default function About() {
               })}
             </div>
             <a
-              href="#contact"
+              href={profile.resumeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-6 inline-block px-5 py-2.5 rounded-md neon-border-red font-hack text-xs uppercase tracking-wider hover:bg-neon-red/10 transition-colors"
             >
               Read More
